@@ -7,14 +7,6 @@ export const SideBar = () => {
     <div className={styles.container}>
       <div className={styles.content}>
         <section className={styles.links}>
-          <div className={styles.link}>
-            <FcGlobe className={styles.icon} />
-            <span>Home</span>
-          </div>
-          <div className={styles.link}>
-            <FcCloth className={styles.icon} />
-            <span>Rooms</span>
-          </div>
           <div
             className={styles.link}
             style={{
@@ -22,6 +14,14 @@ export const SideBar = () => {
               color: '#FFFFFF',
             }}
           >
+            <FcGlobe className={styles.icon} />
+            <span>Home</span>
+          </div>
+          <div className={styles.link}>
+            <FcCloth className={styles.icon} />
+            <span>Rooms</span>
+          </div>
+          <div className={styles.link}>
             <FcCalendar className={styles.icon} />
             <span>Reservations</span>
           </div>
