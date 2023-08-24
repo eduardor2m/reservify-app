@@ -11,6 +11,9 @@ export const Content = () => {
             <CardRoom key={room} />
           ))}
         </section>
+        <section className={styles.pagination}>
+          <h1>{'>'}</h1>
+        </section>
       </div>
     </div>
   )
